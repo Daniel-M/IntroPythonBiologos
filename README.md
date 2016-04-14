@@ -4,9 +4,6 @@
 
 Copyright 2016, Daniel Mejía Raigosa.  CC BY
 
-
-
-
 <!-- Table of contents: Run pandoc with --toc option -->
 
 
