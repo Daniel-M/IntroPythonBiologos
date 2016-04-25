@@ -1,0 +1,3 @@
+========= Instalación de Python Anaconda =========
+label{sec:instalacion}
+
