@@ -5,31 +5,28 @@ DATE: Abril 27, 2016
 
 __Acerca de.__  
 Materiales de trabajo para el curso corto de Python para ciencias biológicas presentado en la Universidad
-de Antioquia el Miércoles 27 de Abril de 2016.   
+de Antioquia el Miércoles 27 de Abril de 2016.  
+_Revisión del documento:_ Versión 1.0
 
-!split
+!split   
 
 TOC:on   
 
-!split
-========= Contenidos =========
+!split   
+========= Contenidos =========  
 
- * ref{sec:motivacion}   
- * ref{sec:instalacion}  
- * ref{sec:ipython}  
- * ref{sec:elementospython}  
- * ref{sec:matplotlib}  
- * ref{sec:jupyternb}  
+ * ref{ch:motivacion}   
+ * ref{ch:instalacion}   
+ * ref{ch:ipython}   
+ * ref{ch:elementospython}   
+ * ref{ch:matplotlib}   
+ * ref{ch:jupyternb}   
+ 
+!split   
 
-!split
 # #include "sections/motivacion.do.txt"
-!split
 # #include "sections/instalacion.do.txt"
-!split
 # #include "sections/consola-ipython.do.txt"
-!split
 # #include "sections/jupyter-notebook.do.txt"
-!split
 # #include "sections/elementos-python.do.txt"
-!split
 # #include "sections/matplotlib.do.txt"

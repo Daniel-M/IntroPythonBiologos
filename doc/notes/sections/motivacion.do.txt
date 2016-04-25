@@ -1,3 +1,33 @@
-========= Motivación =========
-label{sec:motivacion}
+========= Motivación:  programación en Ciencias Biológicas? =========  
+label{ch:motivacion}
+
+Los sistemas biológicos exhiben gran complejidad. El desarrollo de técnicas experimentales y tecnologías nuevas 
+ha causado que se disponga de datos experimentales cada vez más masivos, requiriéndose el uso de herramientas complejas
+que pueda manipular la cantidad de información disponible con facilidad. La mejor manera de exponer razones por las cuales
+un biógolo o profesional de las ciencias biológicas *debería* aprender a programar como una herramienta se puede hacer 
+a través de casos reales de aplicación.  
+
+Dentro de los casos de éxito tenemos,  
+
+ * __Ómicas__: genómica, proteómica, metabolómica, secuenciación...  
+ * Minería de datos en bases de datos (Proteínas, Georeferenciación, ...).  
+ * Dinámica de poblaciones (Ecosistémica?).  
+ * Análisis estadístico masivo.  
+ * Análisis de datos con inteligencia artificial (Redes Neuronales, Algoritmos Adaptativos y Evolutivos, ...).  
+
+#"Why biology students should learn to program" : "http://www.wired.com/2009/03/why-biology-students-should-learn-how-to-program/"
+
+======= Qué es Python? =======  
+label{ch:motivacion:python}  
+
+`Python` es un lenguaje de programación *interpretado* que se ha popularizado mucho debido a su simpleza y
+relativa facilidad de aprendizaje. Es un lenguaje de programación de *scripting*, es decir, el código fuente se ejecuta línea a línea,
+y no requiere de su *compilación* para producir aplicaciones.  
+
+La diferencia entre un lenguaje de programación *compilado* y uno *interpretado* es que en el primer caso el código fuente debe ser
+compilado para producir un archivo ejecutable. Para el lenguaje interpretado se requiere de la existencia de una aplicación
+conocida como *interprete* que se encarga de ejecutar las instrucciones descritas en el código fuente o *script*.  
+
+#=======  =======  
+#label{ch:motivacion:}  
 

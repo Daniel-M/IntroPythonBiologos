@@ -1,3 +1,79 @@
 ========= Consola de IPython =========
-label{sec:ipython}
+label{ch:ipython}
 
+===== Consola de IPython =====
+
+Al abrir la consola de `IPython` en `Anaconda` nos debe aparecer el siguiente mensaje,  
+
+!bc ipy
+Python 3.5.1+ (default, Apr 17 2016, 16:14:06) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 4.2.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: 
+!ec
+
+Esta consola o *prompt* nos permite ingresar líneas de código `python` que se ejecutan después de ser ingresadas.
+
+!split
+
+!bc pycod 
+print("Hola mundo!")
+print("1+1=",2)
+print("Hola, otra vez","1+1=",2)
+print("Hola, otra vez.","Sabias que 1+1 =",2,"?")
+numero=3
+print(numero)
+numero=3.1415
+print(numero)
+!ec
+
+Probemos creando una variable que inicialice a una palabra
+
+!bc pycod 
+palabra=hola
+!ec
+
+Esto produce la siguiente salida,  
+
+!bc pycod-t 
+palabra=hola
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-12-fda39d79c7ea> in <module>()
+----> 1 palabra=hola
+
+NameError: name 'hola' is not defined
+!ec
+
+Lo que ocurrió es que la expresión `palabra=hola` corresponde a la asignación del contenido de una variable llamada
+`hola` en una llamada `palabra`. La variable `hola` no existe (no fue definida previamente) por lo tanto se arrojó el error.   
+Para asignar el contenido de una *palabra* o *frase* se debe hacer uso de comillas dobles,
+
+!bc pycod 
+palabra="hola"
+print(palabra)
+!ec
+
+===== El historial de comandos ingresados =====
+
+Mediante el comando, 
+
+!bc pycod
+%history
+!ec
+
+Es posible visualizar la lista de los comandos ingresados durante una sesión de trabajo de `IPython`. También es posible crear
+un archivo que almacene los comandos de la sesión añadiendo la opción `-f nombre_archivo_destino.py`.  
+Por ejemplo, el comando
+
+!bc pycod
+%history -f archivo_destino.py
+!ec
+
+Crea el archivo `archivo_destino.py` en el directorio de trabajo actual. Los contenidos de dicho archivo son los comandos ingresados durante la sesión de trabajo.

@@ -1,3 +1,30 @@
 ========= Instalación de Python Anaconda =========
-label{sec:instalacion}
+label{ch:instalacion}
+
+Durante el desarrollo de este curso estaremos trabajando con una distribución de `Python` conocida como `Anaconda`.  
+`Anaconda` es un empaquetado de `Python` que incluye varios paquetes de uso frecuente en ciencias y análisis de datos, entre
+ellos  `Matplotlib` y `Numpy` de interés para este curso y cuya instalación independiente es bastante tediosa.
+
+"Enlace de descarga Anaconda para Windows" : "https://www.continuum.io/downloads#_windows"
+
+* Tamaño aproximado: `350 MB`.   
+* Tiempo de instalación aproximado: 15 minutos.   
+
+======= Módulo Python Visual =======
+
+El módulo de `python-visual` es útil para el dibujado de objetos 3D y animaciones. Se puede instalar desde la consola
+de `Anaconda` mediante el comando,  
+
+!bc 
+conda install -c https://conda.binstar.org/mwcraig vpython
+!ec
+
+"Más información y otros enlaces de descarga" : "http://vpython.org/contents/download_windows.html"  
+
+Para usar, `python-visual` con las versiones más nuevas "se recomienda incluir la siguiente línea al inicio del código" : "http://vpython.org/contents/download_windows.html"
+fuente,  
+
+!bc 
+from __future__ import print_function, division
+!ec
 
