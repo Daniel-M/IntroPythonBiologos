@@ -1,0 +1,1 @@
+[http://nbviewer.jupyter.org/github/Daniel-M/IntroPythonBiologos/blob/master/doc/notes/IntroPythonBiologos.ipynb](http://nbviewer.jupyter.org/github/Daniel-M/IntroPythonBiologos/blob/master/doc/notes/IntroPythonBiologos.ipynb)
