@@ -2,6 +2,7 @@ TARGETS=IntroPythonBiologos.do.txt $(find sections -type f -name "*.do.txt")
 
 IntroPythonBiologos.ipynb: $(TARGETS) 
 	doconce format ipynb IntroPythonBiologos.do.txt --encoding=utf-8
+	$(MAKE) clean
 
 IntroPythonBiologos.md: $(TARGETS) 
 	doconce format pandoc IntroPythonBiologos.do.txt --encoding=utf-8

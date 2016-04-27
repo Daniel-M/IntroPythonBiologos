@@ -1,7 +1,8 @@
 ========= Consola de IPython =========
 label{ch:ipython}
 
-===== Consola de IPython =====
+
+FIGURE: [figures/ipython-console.png, width=640 frac=0.8] Consola de IPython en Linux label{ch:ipython:fig:consola_ejemplo}
 
 Al abrir la consola de `IPython` en `Anaconda` nos debe aparecer el siguiente mensaje,  
 
@@ -24,12 +25,33 @@ Esta consola o *prompt* nos permite ingresar líneas de código `python` que se 
 
 !bc pycod 
 print("Hola mundo!")
+!ec
+
+!bc pycod 
 print("1+1=",2)
+!ec
+
+!bc pycod 
 print("Hola, otra vez","1+1=",2)
+!ec
+
+!bc pycod 
 print("Hola, otra vez.","Sabias que 1+1 =",2,"?")
+!ec
+
+!bc pycod 
 numero=3
+!ec
+
+!bc pycod 
 print(numero)
+!ec
+
+!bc pycod 
 numero=3.1415
+!ec
+
+!bc pycod 
 print(numero)
 !ec
 
@@ -57,6 +79,9 @@ Para asignar el contenido de una *palabra* o *frase* se debe hacer uso de comill
 
 !bc pycod 
 palabra="hola"
+!ec
+
+!bc pycod 
 print(palabra)
 !ec
 

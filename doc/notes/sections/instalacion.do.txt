@@ -28,3 +28,10 @@ fuente,
 from __future__ import print_function, division
 !ec
 
+======= Editor ATOM (Opcional) =======
+
+Cualquier editor de texto es útil para escribir código fuente en python, el único requisito es guardar el código fuente con extensión `.py`.  
+Un editor que podría ser útil debido al resaltado de sintaxis es "ATOM" : "https://atom.io/" el cual puede descargarse para windows desde 
+este enlace "URL" : "https://github.com/atom/atom/releases/download/v1.7.2/atom-windows.zip"   
+
+* Tamaño aproximado: `100 MB`.   

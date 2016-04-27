@@ -1,3 +1,22 @@
 ========= Notebook Jupyter =========
 label{ch:jupyternb}
 
+_Jupyter_ es la evolución de lo que se conocía como `notebooks` de `IPython`, una interfaz en un navegador web que interacciona con un
+*kernel* o *núcleo de computación* de `IPython` el cual se encarga de ejecutar los comandos ingresados en el notebook.  
+Actualmente Jupyter soporta varios núcleos de computación, entre ellos `Python`, `R`, `Perl`, entre otros.
+
+FIGURE: [figures/jupyter-console.png, width=640 frac=0.8] Notebook de Jupyter label{ch:jupyternb:fig:notebook_ejemplo}  
+
+===== Iniciando el notebook =====
+
+Para iniciar un notebook de Jupyter es necesario utilzar la consola de `Anaconda` y ejecutar el comando
+
+!bc pycode-t
+jupyter notebook
+!ec
+
+Lo cual iniciará el kernel establecido por defecto e iniciará una ventana del navegador web del sistema presentando el notebook
+de manera similar que vemos en la figura (ref{ch:jupyternb:fig:notebook_ejemplo}) más arriba
+
+Al abrir la consola de `IPython` en `Anaconda` nos debe aparecer el siguiente mensaje,  
+

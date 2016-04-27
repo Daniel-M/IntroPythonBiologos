@@ -1,12 +1,15 @@
-TITLE: _Introducción a Python para Ciencias Biólogicas_.
+TITLE: _Introducción a Python para Ciencias Biólogicas_.   
 _Curso de Biofísica - Universidad de Antioquia_   
-AUTHOR: Daniel Mejía Raigosa {copyright|CC BY} Email:danielmejia55@gmail.com at Universidad de Antioquia
-DATE: Abril 27, 2016
+AUTHOR: Daniel Mejía Raigosa {copyright|CC BY} Email:danielmejia55@gmail.com at Universidad de Antioquia    
+!split   
+DATE: Abril 27, 2016   
 
-__Acerca de.__  
+!split   
+
+__Acerca de.__   
 Materiales de trabajo para el curso corto de Python para ciencias biológicas presentado en la Universidad
-de Antioquia el Miércoles 27 de Abril de 2016.  
-_Revisión del documento:_ Versión 1.0
+de Antioquia el Miércoles 27 de Abril de 2016.   
+_Revisión del documento:_ Versión 1.0   
 
 !split   
 

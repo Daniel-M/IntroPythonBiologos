@@ -14,6 +14,7 @@ Dentro de los casos de éxito tenemos,
  * Dinámica de poblaciones (Ecosistémica?).  
  * Análisis estadístico masivo.  
  * Análisis de datos con inteligencia artificial (Redes Neuronales, Algoritmos Adaptativos y Evolutivos, ...).  
+ * Simulación en general (*Demasiados casos de éxito...*).
 
 #"Why biology students should learn to program" : "http://www.wired.com/2009/03/why-biology-students-should-learn-how-to-program/"
 

@@ -1,3 +1,10 @@
 ========= Elementos de Python =========
 label{ch:elementospython}
 
+ * "URL":"https://docs.python.org/3/library/math.html"   
+ * "URL":"https://docs.scipy.org/doc/numpy-dev/user/quickstart.html#"   
+ * "URL":"http://c3.itm.edu.co/wiki/tiki-index.php?page=Introduccion%20a%20la%20Programacion"   
+ * "URL":"https://docs.scipy.org/doc/numpy/reference/"   
+ * "URL":"http://scipy-cookbook.readthedocs.org/items/FittingData.html"   
+ * "URL":"http://docs.scipy.org/doc/scipy-0.13.0/reference/generated/scipy.integrate.odeint.html#scipy.integrate.odeint"   
+
