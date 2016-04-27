@@ -21,9 +21,10 @@ TOC:on
  * ref{ch:motivacion}   
  * ref{ch:instalacion}   
  * ref{ch:ipython}   
- * ref{ch:elementospython}   
- * ref{ch:matplotlib}   
  * ref{ch:jupyternb}   
+ * ref{ch:elementospython}   
+ * ref{ch:numpy}   
+ * ref{ch:matplotlib}   
  
 !split   
 
@@ -32,4 +33,5 @@ TOC:on
 # #include "sections/consola-ipython.do.txt"
 # #include "sections/jupyter-notebook.do.txt"
 # #include "sections/elementos-python.do.txt"
-# #include "sections/matplotlib.do.txt"
+# #include "sections/intro-numpy.do.txt"
+# #include "sections/intro-matplotlib.do.txt"
