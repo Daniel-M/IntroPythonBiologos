@@ -23,8 +23,8 @@ TOC:on
  * ref{ch:ipython}   
  * ref{ch:jupyternb}   
  * ref{ch:elementospython}   
- * ref{ch:numpy}   
- * ref{ch:matplotlib}   
+ * ref{ch:intro-numpy}   
+ * ref{ch:intro-matplotlib}   
  
 !split   
 
