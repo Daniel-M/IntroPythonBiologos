@@ -1,6 +1,6 @@
-% IntroPythonBiologos 
-% **Daniel Mejía Raigosa** at Grupo de Biofísica, Universidad de Antioquia
-% Apr 13, 2016
+# IntroPythonBiologos 
+# **Daniel Mejía Raigosa** at Grupo de Biofísica, Universidad de Antioquia
+# Apr 13, 2016
 
 Copyright 2016, Daniel Mejía Raigosa.  CC BY
 
