@@ -4,7 +4,10 @@ label{ch:ipython}
 
 FIGURE: [figures/ipython-console.png, width=640 frac=0.8] Consola de IPython en Linux label{ch:ipython:fig:consola_ejemplo}
 
-Al abrir la consola de `IPython` en `Anaconda` nos debe aparecer el siguiente mensaje,  
+Para iniciar una consola de `IPython` es necesario buscar la carpeta de instalación de `Anaconda` en el menú de inicio
+de windows, y abrir el acceso directo `IPyton` correspondiente.
+
+Al abrir la consola de `IPython` nos debe aparecer el siguiente mensaje,  
 
 !bc ipy
 Python 3.5.1+ (default, Apr 17 2016, 16:14:06) 

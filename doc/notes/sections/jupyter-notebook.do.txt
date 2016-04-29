@@ -9,14 +9,9 @@ FIGURE: [figures/jupyter-console.png, width=640 frac=0.8] Notebook de Jupyter la
 
 ===== Iniciando el notebook =====
 
-Para iniciar un notebook de Jupyter es necesario utilzar la consola de `Anaconda` y ejecutar el comando
-
-!bc pycode-t
-jupyter notebook
-!ec
-
-Lo cual iniciará el kernel establecido por defecto e iniciará una ventana del navegador web del sistema presentando el notebook
-de manera similar que vemos en la figura (ref{ch:jupyternb:fig:notebook_ejemplo}) más arriba
-
-Al abrir la consola de `IPython` en `Anaconda` nos debe aparecer el siguiente mensaje,  
+Para iniciar un notebook de Jupyter en `Anaconda` es necesario ejecutar el enlace directo con nombre `Jupyter`
+en el menú de inicio, bajo el directorio de `Anaconda`
+Esto iniciará el kernel establecido por defecto según la instalación de `Anaconda` que hayamos elegido,
+y se abrirá una ventana del navegador web del sistema presentando el notebook de manera similar que vemos 
+en la figura (ref{ch:jupyternb:fig:notebook_ejemplo}) más arriba
 
