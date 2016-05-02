@@ -1,10 +1,90 @@
 ========= Elementos de Python =========
 label{ch:elementospython}
 
- * "URL":"https://docs.python.org/3/library/math.html"   
- * "URL":"https://docs.scipy.org/doc/numpy-dev/user/quickstart.html#"   
- * "URL":"http://c3.itm.edu.co/wiki/tiki-index.php?page=Introduccion%20a%20la%20Programacion"   
- * "URL":"https://docs.scipy.org/doc/numpy/reference/"   
- * "URL":"http://scipy-cookbook.readthedocs.org/items/FittingData.html"   
- * "URL":"http://docs.scipy.org/doc/scipy-0.13.0/reference/generated/scipy.integrate.odeint.html#scipy.integrate.odeint"   
+======= Sintaxis de Python =======
+
+
+===== Variables y tipos de datos =====
+
+En prog
+
+=== Variables Booleanas `bool` ===
+=== Enteros `int` ===
+=== Punto flotante `float` ===
+=== Cadenas de texto `string` ===
+=== Listas `list` ===
+=== Diccionarios ===
+
+
+===== Interacción con el usuario =====
+
+=== Mostrar mensajes en pantalla ===
+
+Para presentar comandos en pantalla se utiliza el comando `print()` colocando el contenido de lo que se desea mostrar
+al interior de los `()`.   
+
+Por ejemplo
+
+!bc pycode
+print("Hola")
+!ec
+
+Al interior tenemos *la cadena de caracteres* "Hola".
+
+!bc pycode
+print(5.5)
+!ec
+
+
+
+=== Leer información ingresada por el teclado ===
+
+Se puede leer información ingresada por el teclado mediante el comando `input` el cual debe ir almacenado en una variable
+dentro del paréntesis se puede ingresar un mensaje (opcional).   
+
+!bc pycode
+nombre=input("Hola, cual es tu nombre?: ")
+print("Tu nombre es",nombre)
+!ec
+
+Es equivalente  a tener
+
+!bc pycode
+print("Hola, cual es tu nombre?")
+nombre=input()
+print("Tu nombre es",nombre)
+!ec
+
+
+
+
+
+===== Estructuras de control =====
+
+=== Sentencia `if` ===
+
+
+===== Ciclos o Bucles =====
+
+=== Ciclo `for` ===
+=== Ciclo `while` ===
+
+
+===== Funciones =====
+
+=== Declaración de una función ===
+=== Usando funciones ===
+
+
+======= Enlaces de interés y otros recursos =======
+
+ * "Introducción a la Programación con Python (Español)":"http://c3.itm.edu.co/wiki/tiki-index.php?page=Introduccion%20a%20la%20Programacion"   
+ * "Documentación módulo `math` (Inglés)":"https://docs.python.org/3/library/math.html"   
+ * "Inicio rápido de Numpy (Inglés)":"https://docs.scipy.org/doc/numpy-dev/user/quickstart.html#"   
+ * "Documentación de referencia Numpy (Inglés)":"https://docs.scipy.org/doc/numpy/reference/"   
+ * "Ajuste de datos a curvas usando Numpy y Scipy (Inglés)":"http://scipy-cookbook.readthedocs.org/items/FittingData.html"   
+ * "Integración de ecuaciones diferenciales con Scipy (Inglés)":"http://docs.scipy.org/doc/scipy-0.13.0/reference/generated/scipy.integrate.odeint.html#scipy.integrate.odeint"   
+
+
+
 
