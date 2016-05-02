@@ -6,13 +6,98 @@ label{ch:elementospython}
 
 ===== Variables y tipos de datos =====
 
-En prog
+En programación existe el concepto de *variable*. Una variable puede verse como una etiqueta que le damos a una región
+de memoria donde almacenamos información. La utilidad de tener *etiquetadas* regiones de memoria es que podemos hacer llamadas
+a ella en cualquier parte de nuestros programas.
+
+!bc pycode
+variable=123
+variable_texto="contenido"
+print(variable)
+print(variable_texto)
+!ec
+
+Las variables pueden clasificarse según los siguientes tipos de datos se clasifican en,
+
+ * Booleanos: almacenan valores de verdad, *verdaero*, *falso*, 1, 0.   
+ * Enteros: almacenan valores numéricos enteros, como 2, -2, 3, 1000.   
+ * Punto flotante: almacenan valores numéricos de *punto flotante* es decir, números con decimales o en notación científica.   
 
 === Variables Booleanas `bool` ===
+
+Almacenan valores de verdad *verdadero* o *falso* que en `Python` corresponden a `true` y `false`
+
+!bc pycode
+verdadera = True
+falsa = False
+print(verdadera)
+print(falsa)
+!ec
+
 === Enteros `int` ===
+
+Almacenan valores numéricos enteros, tanto positivos como negativos,
+
+!bc pycode
+numero=19881129
+print(numero)
+!ec
+
+!bc pycode
+numeronegativo=-19881129
+print(numero)
+!ec
+
 === Punto flotante `float` ===
+
+Almacenan valores numéricos de punto flotante,
+
+!bc pycode
+numero=3.19881129
+print(numero)
+!ec
+
+!bc pycode
+numeronegativo=-3.19881129
+print(numero)
+!ec
+
+
 === Cadenas de texto `string` ===
+
+Almacenan el contenido de texto o caracteres,
+
+!bc pycode
+palabra="Alicia"
+frase="¿En qué se parecen un cuervo y un escritorio?"
+print(palabra)
+print(frase)
+!ec
+
 === Listas `list` ===
+
+Las listas son un tipo especial de variable que permite almacenar una secuencia de varios objetos. Por ejemplo la lista,
+
+!bc pycode
+lista = [2,3.5,6, "perro"] #existe en esta lista diferentes tipos de datos
+!ec
+
+Las listas permiten acceder a cada elemento utilizando un sistema de indices que van desde el 0 hasta el `N-1` donde `N`
+es el tamaño de la lista, es decir, la cantidad de elementos que almacena
+
+!bc pycode
+print(lista[0])
+print(lista[1])
+print(lista[2])
+print(lista[3])
+!ec
+
+También es posible mostrar los contenidos de una lista utilizando `print`
+
+!bc pycode
+print(lista)
+!ec
+
 === Diccionarios ===
 
 
@@ -35,6 +120,28 @@ Al interior tenemos *la cadena de caracteres* "Hola".
 print(5.5)
 !ec
 
+Es posible ingresar varios argumentos a la función `print`,
+
+!bc pycode
+print("Voy a tener varios argumentos","separados","por",1,"coma","entre ellos")
+!ec
+
+=== Secuencias de escape en texto===
+
+Las secuencias de escape son un conjunto de caracteres especiales que cotienen información sobre el formateo de texto,
+
+ * `\n` significa nueva línea.   
+ * `\t` significa un espacio de tabulación.    
+ * `\'` permite colocar comillas simples en el texto.   
+ * `\"` permite colocar comillas dobles en el texto.   
+
+Un código de ejemplo ilustra mejor su uso,  
+
+!bc pycode
+print("Esto es un texto que se divide por\nUna línea nueva")
+print("También puedo tener texto\tseparado por un tabulador")
+print("Las secuencias de escape\n\t pueden ser combinadas\ncuantas veces se quiera")
+!ec
 
 
 === Leer información ingresada por el teclado ===
@@ -47,7 +154,7 @@ nombre=input("Hola, cual es tu nombre?: ")
 print("Tu nombre es",nombre)
 !ec
 
-Es equivalente  a tener
+Es equivalente  a tener,   
 
 !bc pycode
 print("Hola, cual es tu nombre?")
@@ -56,15 +163,125 @@ print("Tu nombre es",nombre)
 !ec
 
 
-
-
-
 ===== Estructuras de control =====
+
+Las estructuras de control determinan el comportamiento de un programa con base en desiciones. Los criterios de decisión
+suelen ser condiciones de lógica *Booleana*, es decir, *Verdadero* o *Falso*.
+
+
+=== Operaciones lógicas `and`,`or` ===
+
+Corresponde a las operaciones lógicas de *conjunción* y *disyunción*. Las tablas de verdad son las siguientes,
+
+_Conjunción_ `and`    
+|-c-|-c-|-c--------|
+| A | B | A `and` B|
+|-c-|-c-|-c--------|
+| V | V |    V     |
+| V | F |    F     |
+| F | V |    F     |
+| F | F |    F     |
+|---|---|----------|
+
+!bc pycode
+print("Tabla de verdad \'and\'")
+A = True
+B = True
+print(A,"and",B,"=",A or B)
+A = True
+B = False
+print(A,"and",B,"=",A or B)
+A = False
+B = True
+print(A,"and",B,"=",A or B)
+A = False
+B = False
+print(A,"and",B,"=",A or B)
+!ec
+
+
+_Disyunción_ `or`   
+|-c-|-c-|-c-------|
+| A | B | A `or` B|
+|-c-|-c-|-c-------|
+| V | V |    F    |
+| V | F |    V    |
+| F | V |    V    |
+| F | F |    V    |
+|---|---|---------|
+
+
+!bc pycode
+print("Tabla de verdad \'or\'")
+A = True
+B = True
+print(A,"or",B,"=",A or B)
+A = True
+B = False
+print(A,"or",B,"=",A or B)
+A = False
+B = True
+print(A,"or",B,"=",A or B)
+A = False
+B = False
+print(A,"or",B,"=",A or B)
+!ec
+
+
+=== Operadores lógicos de comparación `<=`, `>=`, `<`, `>`,y `==` ===
+
+Los operadores lógicos de comparación retornan los valores de verdad correspondientes al resultado de la comparación
+
+!bc pycode
+A=5
+print(5>2)
+print(5<2)
+print(5==10)
+print(5==A)
+print(5>=2)
+print(5<=2)
+print(5<=A)
+!ec
 
 === Sentencia `if` ===
 
+La sentencia `if` es la que nos permite evaluar condiciones booleanas y controlar el flujo de software,
+
+!bc pycode
+A=2
+if( 5 > A ):
+    print("5 es mayor que",A)
+else:
+    print("5 es menor que",A)
+!ec
+
+La sentencia permite añadir la instrucción `else` que se ocupa del caso excluyente del `if`
+
+!bc pycode
+A=2
+if( 5 > A ):
+    print("5 es mayor que",A)
+else:
+    print("5 es menor que",A)
+!ec
+
+Se pueden anidar sentencias `if` que añadan condiciones adicionales mediante la instrucción `elif` (de `else if`).   
+Por ejemplo, considere lo que pasaría según los distintos valores de la variable `A`
+
+!bc pycode
+A=2
+if( 5 > A ):
+    print("5 es mayor que",A)
+elif( 5 == A):
+    print("5 es igual",A)
+else:
+    print("5 es menor que",A)
+!ec
+
 
 ===== Ciclos o Bucles =====
+
+Los ciclos permiten 
 
 === Ciclo `for` ===
 === Ciclo `while` ===
@@ -84,6 +301,7 @@ print("Tu nombre es",nombre)
  * "Documentación de referencia Numpy (Inglés)":"https://docs.scipy.org/doc/numpy/reference/"   
  * "Ajuste de datos a curvas usando Numpy y Scipy (Inglés)":"http://scipy-cookbook.readthedocs.org/items/FittingData.html"   
  * "Integración de ecuaciones diferenciales con Scipy (Inglés)":"http://docs.scipy.org/doc/scipy-0.13.0/reference/generated/scipy.integrate.odeint.html#scipy.integrate.odeint"   
+
 
 
 
