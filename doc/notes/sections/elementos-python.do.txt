@@ -158,7 +158,7 @@ Es equivalente  a tener,
 
 !bc pycode
 print("Hola, cual es tu nombre?")
-nombre=input()
+nombre=input() # es necesario colocar comillas al texto ingresado
 print("Tu nombre es",nombre)
 !ec
 
@@ -281,15 +281,75 @@ else:
 
 ===== Ciclos o Bucles =====
 
-Los ciclos permiten 
+Un ciclo es una porción de código que se ejecuta repetidamente, una y otra vez, un número de veces determinado.
+El ciclo se detiene cuando se satisface una condición de parada
 
 === Ciclo `for` ===
+
+Este ciclo es muy útil cuando se conoce de antemano la cantidad de veces que se necesita repetir
+ una acción determinada dentro del programa. Para controlar el ciclo se pueden utlizar las diferentes secuencias vistas anteriormente
+
+!bc pycod
+for x in range(1,10):
+    print("Este mensaje aparece por",x,"vez")
+!ec
+
+También se puede incluír un "paso" en el ciclo
+
+!bc pycod
+for x in range(1,20,2):
+    print(x)
+!ec
+
+!bc pycod
+for x in range(1,30,3):
+    print(x**2)
+!ec
+
+También es posible iterar a lo largo de los elementos de una lista,
+
+!bc pycod
+lista=[1,2,3,4,5,6]
+for x in lista:
+    print(x**2)
+!ec
+
+O a lo largo de los elementos de una cadena de caracteres,
+
+!bc pycod
+frase="Alicia\n¿En qué se parecen un cuervo y un escritorio?"
+for i in frase:
+    print(i)
+!ec
+
+Notemos que en este caso `i` contiene momentáneamente el i-ésimo caracter de la cadena `frase`.
+
 === Ciclo `while` ===
 
+El ciclo `while` se utiliza para ejecutar un conjunto de instrucciones repetidamente hasta que se
+cumpla cierta condición que nosotros inducimos
+
+!bc pycode
+t=0.0
+dt=0.5
+while t<10.0:
+    t=t+dt
+    print(t)
+!ec
 
 ===== Funciones =====
 
+En programación es común que existan tareas que se realicen recurrentemente. Las funciones sirven para disminuir la complejidad
+del código, organizarlo mejor, además de facilitar su depuración. Al igual que las fuciones en matemáticas, las funciones en 
+programación pueden recibir argumentos los cuales son procesados para retornar algún resultado. Por otro lado, las fuciones también
+pueden existir sin requerir argumentos y ejecutar un conjunto de ordenes sin necesidad de devolver resultado alguno.
+
 === Declaración de una función ===
+
+!bc pycode
+def
+!ec
+
 === Usando funciones ===
 
 
