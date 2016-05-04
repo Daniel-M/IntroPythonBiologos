@@ -25,7 +25,7 @@ conda create --name oldpython python=2.7
 el nombre `oldpython` puede ser cambiado por cualquier otro. Posteriormente, es necesario activar el nuevo entorno
 
 !bc
-activate olpython
+activate oldpython
 !ec
 
 Ya se puede instalar vpython desde la consola de `Anaconda` mediante el comando,  
