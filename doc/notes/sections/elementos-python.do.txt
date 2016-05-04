@@ -1,7 +1,7 @@
 ========= Elementos de Python =========
 label{ch:elementospython}
 
-======= Sintaxis de Python =======
+======= Sintaxis =======
 
 
 ===== Variables y tipos de datos =====
@@ -98,7 +98,18 @@ También es posible mostrar los contenidos de una lista utilizando `print`
 print(lista)
 !ec
 
-=== Diccionarios ===
+=== Algunos métodos de las listas ===
+
+!bc pycode
+lista=[]
+print(lista)
+lista.append(1)
+lista.append(":D")
+lista.append("0211")
+print(lista)
+lista.remove("0211")
+print(lista)
+!ec
 
 
 ===== Interacción con el usuario =====
@@ -126,7 +137,7 @@ Es posible ingresar varios argumentos a la función `print`,
 print("Voy a tener varios argumentos","separados","por",1,"coma","entre ellos")
 !ec
 
-=== Secuencias de escape en texto===
+=== Secuencias de escape en texto ===
 
 Las secuencias de escape son un conjunto de caracteres especiales que cotienen información sobre el formateo de texto,
 
@@ -169,7 +180,7 @@ Las estructuras de control determinan el comportamiento de un programa con base 
 suelen ser condiciones de lógica *Booleana*, es decir, *Verdadero* o *Falso*.
 
 
-=== Operaciones lógicas `and`,`or` ===
+=== Operaciones lógicas `and`, `or` ===
 
 Corresponde a las operaciones lógicas de *conjunción* y *disyunción*. Las tablas de verdad son las siguientes,
 
@@ -181,7 +192,7 @@ _Conjunción_ `and`
 | V | F |    F     |
 | F | V |    F     |
 | F | F |    F     |
-|---|---|----------|
+|------------------|
 
 !bc pycode
 print("Tabla de verdad \'and\'")
@@ -208,7 +219,7 @@ _Disyunción_ `or`
 | V | F |    V    |
 | F | V |    V    |
 | F | F |    V    |
-|---|---|---------|
+|-----------------|
 
 
 !bc pycode
@@ -347,16 +358,61 @@ pueden existir sin requerir argumentos y ejecutar un conjunto de ordenes sin nec
 === Declaración de una función ===
 
 !bc pycode
-def
+def producto(argumento1,argumento2):
+	return argumento1*argumento2
+
+print(producto(2,2))
 !ec
 
-=== Usando funciones ===
+También puedo tener argumentos que no retornen resultado alguno
 
+!bc pycode
+def mensaje():
+	print("Hola clase")
+
+mensaje()
+!ec
+
+
+======= Módulos (o librerías) =======
+
+Los módulos o librerías son conjuntos de funciones que han sido creadas por grupos de programadores y que permiten ahorrar
+tiempo a la hora de programar.   
+Los módulos de interés para este curso son
+
+ * math.   
+ * numpy (Numerical Python).    
+ * matplotlib (Mathematical Plot Library).  
+
+===== Módulo math =====
+
+!bc pycod
+import math
+math.fabs(-1)
+math.ceil(3.67)
+math.floor(3.37)
+math.ceil(3.67)
+math.floor(3.37)
+math.factorial(4)
+math.exp(1)
+math.log(math.exp(1))
+math.log(10)
+math.log(10,10)
+math.sqrt(2)
+math.degrees(3.141592)
+math.radians(2*math.pi)
+math.cos(1)
+math.sin(1)
+math.tan(1)
+math.acos(1)
+math.asin(1)
+math.atan(1)
+!ec
 
 ======= Enlaces de interés y otros recursos =======
 
  * "Introducción a la Programación con Python (Español)":"http://c3.itm.edu.co/wiki/tiki-index.php?page=Introduccion%20a%20la%20Programacion"   
- * "Documentación módulo `math` (Inglés)":"https://docs.python.org/3/library/math.html"   
+ * "Documentación módulo math (Inglés)":"https://docs.python.org/3/library/math.html"   
  * "Inicio rápido de Numpy (Inglés)":"https://docs.scipy.org/doc/numpy-dev/user/quickstart.html#"   
  * "Documentación de referencia Numpy (Inglés)":"https://docs.scipy.org/doc/numpy/reference/"   
  * "Ajuste de datos a curvas usando Numpy y Scipy (Inglés)":"http://scipy-cookbook.readthedocs.org/items/FittingData.html"   
