@@ -10,18 +10,44 @@ ellos  `Matplotlib` y `Numpy` de interés para este curso y cuya instalación in
 * Tamaño aproximado: `350 MB`.   
 * Tiempo de instalación aproximado: 15 minutos.   
 
-======= Módulo Python Visual =======
+======= Módulo Python Visual (VPython) =======
 
-El módulo de `python-visual` es útil para el dibujado de objetos 3D y animaciones. Se puede instalar desde la consola
-de `Anaconda` mediante el comando,  
+El módulo de `python-visual` es útil para el dibujado de objetos 3D y animaciones.
+El módulo VisualPython (VPython) funciona bajo Python 2.7 que es la versión estándar anterior a Python 3.x.
+Para instalar vpython con `Anaconda` 3.5 se deben seguir los siguientes pasos
+!split
+Crear un entorno con Python 2.7 en Anaconda, mediante el comando
+
+!bc
+conda create --name oldpython python=2.7
+!ec
+
+el nombre `oldpython` puede ser cambiado por cualquier otro. Posteriormente, es necesario activar el nuevo entorno
+
+!bc
+activate olpython
+!ec
+
+Ya se puede instalar vpython desde la consola de `Anaconda` mediante el comando,  
 
 !bc 
 conda install -c https://conda.binstar.org/mwcraig vpython
 !ec
 
+Opcionalmente, para usar vpython con IPython es necesario instalar una versión de ipython compatible con python 2.7.
+Esto se logra mediante el comando
+
+!bc
+conda install ipython
+!ec
+
+Siempre y cuando tengamos el entorno `oldpython` activado.
+
 "Más información y otros enlaces de descarga" : "http://vpython.org/contents/download_windows.html"  
 
-Para usar, `python-visual` con las versiones más nuevas "se recomienda incluir la siguiente línea al inicio del código" : "http://vpython.org/contents/download_windows.html"
+!split
+
+Para usar, `vpython` con las versiones más nuevas de python "se recomienda incluir la siguiente línea al inicio del código" : "http://vpython.org/contents/download_windows.html"
 fuente,  
 
 !bc 
