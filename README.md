@@ -11,6 +11,8 @@ Este repositorio público contiene los materiales utilizados para el curso *expr
 del programa de Biología de la región Oriente, programa de la la Facultad de Ciencias Exactas y Naturales de la Universidad de Antioquia.
 
 ## [Para ver los materiales sigue este enlace](http://nbviewer.jupyter.org/github/Daniel-M/IntroPythonBiologos/blob/master/doc/notes/IntroPythonBiologos.ipynb)
+Es recomendable descargar el notebook desde [este enlace](https://github.com/Daniel-M/IntroPythonBiologos/blob/master/doc/notes/IntroPythonBiologos.ipynb) para que el renderizado
+de los textos en markdown sea correcto.
 
 ## Instalación Python y dependencias
 
