@@ -1,18 +1,20 @@
 # IntroPythonBiologos 
-# **Daniel Mejía Raigosa**(*danielmejia55@gmail.com*)
-# Grupo de Biofísica, Universidad de Antioquia
-# Mayo 4, 2016
+# **Daniel Mejía Raigosa** at Grupo de Biofísica, Universidad de Antioquia
+# Apr 13, 2016
 
 Copyright 2016, Daniel Mejía Raigosa.  CC BY
 
+<!-- Table of contents: Run pandoc with --toc option -->
 
-Este repositorio público contiene los materiales utilizados para el curso *express* de Python presentado a los estudiantes 
-del programa de Biología de la región Oriente, programa de la la Facultad de Ciencias Exactas y Naturales de la Universidad de Antioquia.
 
-## [Para ver los materiales sigue este enlace](http://nbviewer.jupyter.org/github/Daniel-M/IntroPythonBiologos/blob/master/doc/notes/IntroPythonBiologos.ipynb)
+
+
+# **Propuesta de contenidos curso**: *Introducción a Python para Biólogos* version 1.0
+
+Este documento presenta la versión 1.0 de los contenidos a discutir en el curso *Introducción a Python para Biólogos*.
+
 
 ## Instalación Python y dependencias
-
 Revisión corta (unos 5 minutos) sobre la instalacion del paquete `anaconda` en Windows. Se explica la instalación de `python visual` desde la consola de `anaconda`.
 `anaconda` es un empaquetado de python con un conjunto de paquetes de uso frecuente en ciencias y análisis de datos.
 Es una forma rápida de tener Python, Matplotlib, Numpy, entre otros, en una sola instalación.
@@ -21,6 +23,42 @@ Es una forma rápida de tener Python, Matplotlib, Numpy, entre otros, en una sol
 * Tiempo aproximado de instalación: 15 minutos.   
 
 ## Uso del notebook IPython/Jupyter
+
+Familiarización con los entornos de programación de Python,
+
+* Modo interactivo.  
+* Notebook IPython.  
+* IPython como una calculadora.  
+* Manejo de sesiones e historial de comandos.  
+
+## Elementos del lenguaje Python
+
+Se presentan palabras reservadas del lenguaje mediante una aproximación de *manos a la obra*,
+
+* Imprimir en pantalla.  
+* Leer desde teclado.  
+* Declaración y uso de variables.  
+* Tipos de datos.  
+* listas.  
+* Diccionarios (?).  
+* Bucle `for` (uso de `range()`).  
+* Sentencias de control `if` e `if...else`.   
+* Sentencia `select...case`.  
+* Concepto de rutina y función.  
+* Definición de funciones `def`.  
+* Importar módulos y uso de alias `import matplotlib.pyplot`.  
+
+## `Matplotlib` y `Numpy` para graficación de datos
+
+* Importación de módulos `numpy`.   
+* Creación de arreglos con `numpy`.    
+* Graficación básica con `matplotlib`.  
+* Leer datos desde archivo con `numpy`.  
+* Graficar series de tiempo con `matplotlib`.   
+
+## `Visual Python` para simulación
+
+Introducción corta de los elementos mínimos de `Visual Python` a través de ejemplos cortos.  
 
 ## Ejemplos de aplicación (en Biología)
 
@@ -41,6 +79,7 @@ Se discute cómo encontrar ayuda en internet para la realización de tareas.
 
 ## Recursos
 
+[Existirá un repositorio público](https://github.com/Daniel-M/IntroPythonBiologos) con material de estudio, ejemplos, y ejercicios disponibles.
 
 * Repositorio <https://github.com/Daniel-M/IntroPythonBiologos>.
 * Instaladores de Anaconda <https://www.continuum.io/downloads>
