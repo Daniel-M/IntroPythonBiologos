@@ -1,4 +1,4 @@
-# IntroPythonBiologos 
+# [IntroPythonBiologos](http://nbviewer.jupyter.org/github/Daniel-M/IntroPythonBiologos/blob/master/doc/notes/IntroPythonBiologos.ipynb)
 ## Daniel Mejía Raigosa (*danielmejia55@gmail.com*)
 ### Grupo de Biofísica
 ### Universidad de Antioquia
