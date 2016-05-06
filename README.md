@@ -25,21 +25,10 @@ Es una forma rápida de tener Python, Matplotlib, Numpy, entre otros, en una sol
 
 ## Uso del notebook IPython/Jupyter
 
-## Ejemplos de aplicación (en Biología)
+## Ejemplos de aplicación
 
-Selección de problemas,
-
-* Movimiento 1D.  
-* Movimiento 2D (Proyectiles).  
-* Ejemplo de secuenciación para hallar la cadena complementaria a un fragmento de DNA.     
-* Graficar datos de alometría.  
-* Ajuste de datos de alometría.  
-* Generación de Espiral Dorada.  
-* Generación de fractales `fern` de Barnsley (Interactivo, se hace una competencia para ver quién obtiene el fractal más interesante) (Premio al ganador?).  
-
-## Cómo buscar ayuda en internet
-
-Se discute cómo encontrar ayuda en internet para la realización de tareas.
+El directorio ejemplos contiene un conjunto de notebooks con ejemplos de aplicación de los temas tratados en el curso, además son de interés para
+la biología y la biofísica
 
 
 ## Recursos
