@@ -1,7 +1,8 @@
 # IntroPythonBiologos 
-# **Daniel Mejía Raigosa**(*danielmejia55@gmail.com*)
-# Grupo de Biofísica, Universidad de Antioquia
-# Mayo 4, 2016
+## Daniel Mejía Raigosa (*danielmejia55@gmail.com*)
+### Grupo de Biofísica
+### Universidad de Antioquia
+## Mayo 4, 2016
 
 Copyright 2016, Daniel Mejía Raigosa.  CC BY
 
